@@ -1,6 +1,10 @@
 # Invoice_Database
 I created an interactive invoice tailored to the client's specifications.  They wanted to be able to choose a state in the state field and then only have the addresses show up that were tied to that state in the address field.  I used depending drop down lists to accomplish this.  An addition they also wanted an automatic invoice number to be generated from the state abbreviation, the numbers of the street address followed by the first letters of the stree name, then the first letter of the state name, 4 static zeros at the end and finally a number that would increment based on if the same invoice number was ever found in another worksheet where all of the invoices would be submitted.  I created a custom function for this invoice number which you can find below.  I used ChatGPT to assist me in the base creation of the function and from there I tailored it to fit the client's specific situation. The client also wanted an easy way to get the layout in a pdf so that they could print it.  I created a button in which I tied a macro below to it so that it would print out the invoice number as the name and tie -EST to the end of it (see below macro code). The last button I created helps the user submit the invoice to another worksheet where it documents all of the fields of the worksheet into rows.  The description field dictates how many rows will be created as all of the other information collected will be the same for each row except the descriptions.
 
+Whole View of Interactive Invoice:
+
+![whole_view](https://github.com/jbradstr/Invoice_Database/blob/main/invoice_num_example.png?raw=true)
+
 
 Invoice Number Function: (In Progress)
 Example Picture: 
