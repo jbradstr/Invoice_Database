@@ -3,7 +3,7 @@ I created an interactive invoice tailored to the client's specifications.  They 
 
 Whole View of Interactive Invoice:
 
-![whole_view](https://github.com/jbradstr/Invoice_Database/blob/main/invoice_num_example.png?raw=true)
+![whole_view](https://github.com/jbradstr/Invoice_Database/blob/main/whole_view.png?raw=true)
 
 
 Invoice Number Function: (In Progress)
