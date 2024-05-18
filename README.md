@@ -3,7 +3,8 @@ I created an interactive invoice tailored to the client's specifications.  They 
 
 
 Invoice Number Function: (In Progress)
-
+Example Picture: 
+![invoice_num_example](https://github.com/jbradstr/Finance_Format_Calculate/blob/main/step1.png?raw=true)
 ```vbscript
 Function GenerateBaseInvoiceNumber(address As String, city As String, state As String) As String
 
